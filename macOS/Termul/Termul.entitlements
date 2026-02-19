@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Allow the app to run in the background as a menu bar app -->
+	<key>com.apple.security.app-sandbox</key>
+	<false/>
+
+	<!-- Allow outgoing network connections (for commands that may need network access) -->
+	<key>com.apple.security.network.client</key>
+	<true/>
+
+	<!-- Allow incoming network connections (for development servers) -->
+	<key>com.apple.security.network.server</key>
+	<true/>
+
+	<!-- Allow file access to user-selected files -->
+	<key>com.apple.security.files.user-selected.read-write</key>
+	<true/>
+
+	<!-- Allow access to Downloads folder -->
+	<key>com.apple.security.files.downloads.read-write</key>
+	<true/>
+
+	<!-- Allow access to Documents folder for backups -->
+	<key>com.apple.security.documents.read-write</key>
+	<true/>
+
+	<!-- Allow arbitrary load (for development tools, may be restricted in production) -->
+	<key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+	<true/>
+
+	<!-- Allow JIT compilation (needed by some development tools) -->
+	<key>com.apple.security.cs.allow-jit</key>
+	<true/>
+
+	<!-- Disable library validation to allow loading system libraries -->
+	<key>com.apple.security.cs.disable-library-validation</key>
+	<true/>
+
+	<!-- Allow the app to execute other processes (for shell commands) -->
+	<key>com.apple.security.automation.apple-events</key>
+	<true/>
+</dict>
+</plist>

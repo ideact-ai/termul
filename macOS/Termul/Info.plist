@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- App Identification -->
+	<key>CFBundleIdentifier</key>
+	<string>com.termul.app</string>
+	<key>CFBundleName</key>
+	<string>Termul</string>
+	<key>CFBundleDisplayName</key>
+	<string>Termul</string>
+	<key>CFBundleExecutable</key>
+	<string>Termul</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+
+	<!-- Version Information -->
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+
+	<!-- Minimum OS Version -->
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+
+	<!-- App Category -->
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
+
+	<!-- Menu Bar App Configuration -->
+	<!-- This makes the app run as a background/agent app (menu bar only) -->
+	<key>LSUIElement</key>
+	<true/>
+
+	<!-- App Icon -->
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+
+	<!-- Supported Architectures -->
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+
+	<!-- High DPI Capable -->
+	<key>NSHighResolutionCapable</key>
+	<true/>
+
+	<!-- App Transport Security -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
+
+	<!-- File Access -->
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Termul needs access to save project backups to your Documents folder.</string>
+
+	<!-- Scripting and Automation -->
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Termul needs AppleScript permission to interact with other development tools.</string>
+
+	<!-- Privacy - Full Disk Access (optional, for advanced features) -->
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Termul needs access to browse and select project directories on your Desktop.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Termul needs access to browse and select project directories in your Downloads folder.</string>
+
+	<!-- App Mode -->
+	<key>NSSupportsAutomaticTermination</key>
+	<true/>
+	<key>NSSupportsSuddenTermination</key>
+	<true/>
+
+	<!-- Localization -->
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+	</array>
+
+	<!-- Main Interface (not used for menu bar app) -->
+	<key>NSMainStoryboardFile</key>
+	<string></string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+
+	<!-- Launch Configuration -->
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+
+	<!-- Prevent App Nap (important for running background processes) -->
+	<key>NSSupportsAutomaticTermination</key>
+	<false/>
+	<key>NSSupportsSuddenTermination</key>
+	<false/>
+
+	<!-- Human-Readable Copyright -->
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2024 Termul. All rights reserved.</string>
+
+	<!-- Additional Information -->
+	<key>CFBundleGetInfoString</key>
+	<string>Termul 1.0.0, Copyright © 2024 Termul. All rights reserved.</string>
+</dict>
+</plist>
